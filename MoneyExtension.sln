@@ -7,11 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyExtension", "MoneyExte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyExtension.Tests", "MoneyExtension.Tests\MoneyExtension.Tests.csproj", "{A3C93F71-CEE0-4CAA-8DE8-2C9E54598AB5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{58BEF7C2-ACFB-408A-B658-8CE28FF043BA}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{3EC68504-C3F0-44AA-A6B0-9CF3F4F22EE4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{85005085-C44C-402F-86F9-8120FC15C648}"
 	ProjectSection(SolutionItems) = preProject
-		main.yml = main.yml
+		Media\icon.png = Media\icon.png
+		.github\workflows\main.yml = .github\workflows\main.yml
 	EndProjectSection
 EndProject
 Global
@@ -31,9 +30,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{3EC68504-C3F0-44AA-A6B0-9CF3F4F22EE4} = {58BEF7C2-ACFB-408A-B658-8CE28FF043BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EC17556C-1E97-43D8-8947-CF587E5532C2}
