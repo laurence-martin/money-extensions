@@ -10,7 +10,7 @@ public static class Money
                     .Replace(".","");
 
         if (string.IsNullOrEmpty(text))
-            return 0;
+           return 0;
         
         int.TryParse(text, out var result);
 
