@@ -19,9 +19,8 @@
 	<Title>Money Extensions</Title>
 	<Summary>Money Extensions é uma extensão para converter decimais em inteiros</Summary>
   </PropertyGroup>
-
-	<ItemGroup>
-		<None Include="..\Media\icon.png" Pack="true" PackagePack="\"/>
-	</ItemGroup>	
-
+  
+  <ItemGroup>
+    <None Include="..\Media\icon.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 </Project>
