@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<PackageId>MoneyExtensions</PackageId>
+	<PackageId>MoneyExtensionsByLaurence</PackageId>
 	<Version>1.0.1</Version>
 	<License>MIT</License>
 	<Authors>Laurence Martin</Authors>
