@@ -17,14 +17,14 @@ jobs:
         with: 
           dotnet-version: '6.0.x'
 
-      - name: Build with Dotnet
+      - name: Compilar o projeto
         run: dotnet build --configuration Release
 
-      - name: Test Extensions
+      - name: Testar o projeto
         run: dotnet test
 
-      - name: Create the Package
+      - name: Criar o pacote
         run: dotnet pack --configuration Release
 
-      - name: Publish package
+      - name: Publicar o pacote
         run: dotnet nuget push "MoneyExtension/bin/Release/*.nupkg" -k ${{secrets.NUGET_TOKEN}} -s https://api.nuget.org/v3/index.json
